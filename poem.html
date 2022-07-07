@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Poems</title>
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lobster+Two&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Signika:wght@300&display=swap" rel="stylesheet">
     <style>
         body{
           background-color: black; 
           color: white; 
-          font-size: 50px;  
-         font-family: 'Balsamiq Sans', cursive;
-         font-family: 'Lobster Two', cursive;
+          font-family: 'Nunito', sans-serif;
+          font-family: 'Signika', sans-serif
+        }
+        h1 {
+            font-size: 70px;  
         }
         a{
             text-decoration: none;
@@ -19,19 +23,114 @@
         a:hover{
             color:aqua;
         }
+        button {
+            font-size: 45px;
+            width: 80%;
+            padding: 15px;
+            border: 0px;
+            font-family: 'Signika', sans-serif;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .poem{
+            font-size: 20px;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
   <center>
-  <h1> MY POEMS </h1>
-  <h2>Beauty to Admire</h2>
-   <img src="images/poem2.jpeg">
-   <br>
-   <h2>Pass Your Smile</h2>
-   <img src="images/poem1.jpeg"> 
-   <br><br>
-   <a href = "index.html">Back to Home</a>
-   <br><br>
+    <a href = "index.html"><img src="images/back_icon.png" style="width: 100px; float: left;"></a>
+    <h1> MY POEMS </h1>
+    <button onclick="fun1('d1')" style="background-color: #ff66b3;"><b>Rhyming choices</b></button><br>
+    <div id = "d1" class = 'poem' style="display:none;">
+        To unconditionally love or unapologetically hate<br>To tenaciously try or to accept fate<br>To stand still  and fight or to simply walk away<br>To pave a new path or to choose the most used way<br>To speak up my words out or mask up with a smile<br>To be contented with my journey or walk an extra mile<br>To loop over regrets or to trust the decisions<br>To be a rebel or to follow the traditions<br>To please the people or to speak out loud<br>To lead the people or to follow the crowd<br>To retain one's self or to adapt to change<br>To give it all away or to expect something in exchange<br>Between making a choice and leaving it up to the time<br>All I chose is to write a Rhyme<br></div>
+    <button onclick="fun1('d2')" style="background-color: #8c66ff;"><b>Somewhere between the End and Start</b></button><br>
+    <div id = "d2" class = 'poem' style="display:none;">
+    Somewhere between being held and holding on,<br> 
+    I was writing down my desires to fly.<br>
+    Somewhere between fighting for and letting go,<br> 
+    I was contemplating my power to try.<br>
+    Somewhere between breaking down and staying strong,<br>
+    I was reconsidering my reasons to cry.<br>
+    Somewhere between longing to climb and craving to rest,<br>
+    I was filling myself with the regrets of the days that passed by.<br>
+    Somewhere between wanting to do all that I ever wanted to and accepting my inability to undo what I had done,<br>
+    I reached my time to die.<br>
+    I never wanted another chance to live my life in a different way,<br>
+    for, I still had no answer for the question "WHY?"!<br>
+    </div>
+    <button onclick="fun1('d3')" style="background-color: #66d9ff;"><b>Beauty of an insane obsession</b></button><br>
+    <div id = "d3" class = 'poem' style="display:none;">
+    It was with you I learned memories could also be the unreal realities I always rooted for years,<br>
+    A smile could also be a subtle representation of pain that couldn't be expressed enough with tears.<br>
+    With you, any conversation could be an infinite pause and unbroken silence,<br>
+    Hurting could also be so soft and far from any form of violence.<br>
+    You flowed through all of my scars and wounds that I had to earn,<br>
+    Making each one of those into a lesson and made me learn.<br>
+    Every time I ran away from reality I came closer to you,<br>
+    I knew our bond was always too good to be true.<br>
+    Dear self, no matter what I made you go through,<br>
+    You always stayed for me to keep loving you.<br>
+    Through all these lines I may sound self-obsessed or insane,<br>
+    But it is this insanity that gives me the power to start my day all again.
+</div>
+    <button onclick="fun1('d4')" style="background-color: #b3ff66;"><b>From the one</b></button><br>
+    <div id = "d4" class = 'poem' style="display:none;">
+    A deprived past was my nonstopping thirst’s seed<br>
+    Maybe I couldn't differentiate between need and greed<br>
+    I wanted to fly so high so thno one could ever reach me<br>
+    In return, the pain of loneliness was all time had to teach me<br><br>
+     
+    There were chances I wanted to take<br>
+    There were choices I wanted to make<br>
+    My only fear was, what if things don’t turn the way I wanted it to be<br>
+    And then there were those smiles I fake<br>
+    Putting my own happiness at stake<br>
+    Hoping that it was not all that I ever had to see<br><br>
+     
+    I dreamt so long that I had no time to live<br>
+    A bald head and lost sight was all that time had to give<br><br>
+     
+    If I could count all the days I truly smiled<br>
+    It could hardly cross a hundred<br>
+    And now I am just sorry to all the pages of my life<br>
+    that remains unread
+</div>
+    <button onclick="fun1('d5')" style="background-color: #ffff66;"><b>Beauty to admire</b></button><br>
+    <div id = "d5" class = 'poem' style="display:none;">
+    I wish <br>
+    I could carve your eyes<br>
+    Out of that perfectly shaped face<br>
+    Safely protect it forever in a golden case<br>
+    Look at it every time I feel low<br>
+    Feel the spark that gets me go<br>
+    Cherish it's presence every second<br>
+    And poccess it with pride<br>
+    Till the very end<br><br>
+
+    But then I realise,<br>
+    Your eyes without your smile<br>
+    Is just like an empty Nyle<br>
+    How ever big and large it<br>
+    The current in it is always a miss<br>
+    Beauty shouldn't be pocessed just admired<br>
+    And so will I do to your soul high and fired
+    </div>
+    <br>
+    <a href = "index.html">Back to Home</a>
+    <br><br>
   </center>
 </body>
+<script type="text/javascript">
+    function fun1(argument) {
+          var x = document.getElementById(argument);
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+
+    }
+</script>
 </html>

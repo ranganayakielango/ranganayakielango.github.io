@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blogs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Signika:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body{
+          background-color: black; 
+          color: white; 
+          font-family: 'Nunito', sans-serif;
+          font-family: 'Signika', sans-serif
+        }
+        h1 {
+            font-size: 70px;  
+        }
+        a{
+            text-decoration: none;
+            color:deeppink;
+        }
+        a:hover{
+            color:aqua;
+        }
+        button {
+            font-size: 45px;
+            width: 70%;
+            padding: 15px;
+            border: 0px;
+            font-family: 'Signika', sans-serif;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .blog{
+            font-size: 30px;
+            margin: 10px;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+  <center>
+    <a href = "index.html"><img src="images/back_icon.png" style="width: 100px; float: left;"></a>
+    <h1> MY BLOGS </h1>
+    <button onclick="fun1('d1')" style="background-color: #ff66b3;"><b>ACCEPTANCE</b></button><br>
+    <div id = "d1" class = 'blog' style="display:none;">
+        I was waiting in the Erode junction for almost two hours. Being absolutely jobless, I opened my laptop and then my word pad. I thought of writing something just to while away the time. Thousands topic flooded my mind but hardly any content, lastly I fixed my topic, <b>acceptance</b><br>
+        I would define acceptance as an act of accepting things, people, situations and almost everything that I am given with, without any complaint. There is a huge difference between acceptance and adjustment
+        Almost all of us would have adjusted at least at one point or the other in our life, undoubtedly, but how is this different from accepting?  My train was stopped for almost two hours by then and I also knew the reason (there was some reconstruction of the track happening). There was nothing I could do about that, so I decided to adjust to this situation by diverting myself in writing, but still, I had little irritation in my mind, then there were these questions running, “Why does this always happen only to me?”, “Why is this taking so long?”, “Why couldn’t they do this some other time?”, “Why only me?”<br>
+        But when my thoughts went little deeper, I got the answers for all the question, first of all it was not only me but thousands of other people were also waiting with me…  so it was not ‘only me’, secondly, no would stop a train without any reason, and I very well knew the reason. Every process has its own complexity and needs its own time to be completed. And on top of everything I was just waiting, and it was not anything worse like an accident, I must have been lucky enough! By then I had almost accepted the fact that I had to wait, there weren’t any of those irritating questions running in my mind anymore and I wasn’t having any regrets either.<br>
+        That was the point when I could differentiate between acceptance and adjustment, and eventually, my train which was by then running for few minutes stopped once again… I looked into my watch and it was three hours by then. Little regret once again peeped in my head, and that was the point when I accepted the fact that accepting acceptance needed greater acceptance!
+    <br>
+    <a href="https://myshortstorybox.blogspot.com/2019/11/acceptance-i-waswaiting-in-erode.html">Check in blogger</a>
+    <br><br><br><br><br>
+    </div>
+    <a href = "index.html">Back to Home</a>    
+  </center>
+</body>
+<script type="text/javascript">
+    function fun1(argument) {
+          var x = document.getElementById(argument);
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+
+    }
+</script>
+</html>
